@@ -17,5 +17,5 @@ until number.prime?
 end
 
 puts "The largest prime factor of #{original_number} is #{prime_factors.last}."
-
+# prime_factors.last will always return the largest prime factor
 
