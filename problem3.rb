@@ -3,7 +3,7 @@
 require 'prime'
 
 prime_factors   = []
-original_number = 600851475143
+original_number = gets.chomp.to_i
 number          = original_number
 
 until number.prime?
@@ -15,6 +15,7 @@ until number.prime?
         end
     end
 end
+prime_factors << number
 
 puts "The largest prime factor of #{original_number} is #{prime_factors.last}."
 # prime_factors.last will always return the largest prime factor
