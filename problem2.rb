@@ -3,7 +3,7 @@
 fibonacci_numbers = [1,2]
 sum_of_even       = 0
 
-while fibonacci_numbers[-1] < 4000000
+while fibonacci_numbers[-1] <= 4000000
     if fibonacci_numbers[-1] % 2 == 0
         sum_of_even += fibonacci_numbers[-1]
     end
